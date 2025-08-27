@@ -15,8 +15,6 @@ The Research Trend Radar operates on a robust data pipeline that scrapes, proces
 
 **Multi-Domain Tracking**: Easily switch between different research fields (e.g., AI/ML, Biotechnology, Renewable Energy) to monitor trends relevant to your interests.
 
-**Dark, High-Tech Interface**: A visually stunning design inspired by sci-fi dashboards, featuring a deep black background with vibrant purple and teal accents.
-
 **Dynamic Topic Visualization**: Displays trending research topics, their associated papers, and keywords in an intuitive, engaging format.
 
 **Interactive Filtering**: A collapsible sidebar provides powerful filtering options for keywords, categories, and date ranges.
