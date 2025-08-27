@@ -1,3 +1,4 @@
+Research Trend Radar
 A sleek, futuristic dashboard for tracking and visualizing trending research topics and recent papers across various scientific domains. Built for researchers, academics, and enthusiasts, this tool provides a dynamic and intuitive way to stay on top of the latest advancements.
 
 How It Works
@@ -19,3 +20,4 @@ Dynamic Topic Visualization: Displays trending research topics, their associated
 Interactive Filtering: A collapsible sidebar provides powerful filtering options for keywords, categories, and date ranges.
 
 Insightful Visuals: Includes a word cloud of trending keywords and a bar chart showing paper distribution per topic for at-a-glance data insights.
+
