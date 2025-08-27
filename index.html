@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Research Trend Radar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="brand">
+            <button class="hamburger" id="hamburger" aria-label="Toggle Filters" aria-expanded="false" aria-controls="sidebar">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <h1><span class="accent">Research</span> Trend Radar</h1>
+        </div>
+        <div class="nav-right">
+            <div class="domain-select">
+                <label for="domain" class="sr-only">Domain</label>
+                <select id="domain">
+                    <option value="ai-ml" selected>AI / ML</option>
+                    <option value="nlp">NLP</option>
+                    <option value="cv">Computer Vision</option>
+                    <option value="rl">Reinforcement Learning</option>
+                    <option value="bio">Bioinformatics</option>
+                    <option value="physics">Physics</option>
+                </select>
+            </div>
+            <nav class="nav-links" aria-label="Primary">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#trends" class="nav-link">Trends</a>
+                <a href="#about" class="nav-link">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="app">
+        <aside id="sidebar" class="sidebar" aria-label="Filters">
+            <div class="sidebar-header">
+                <h2>Filters</h2>
+            </div>
+
+            <details class="filter" open>
+                <summary>Keyword</summary>
+                <div class="filter-content">
+                    <input type="text" id="keyword" placeholder="e.g. diffusion, transformer">
+                    <div class="toggle-group">
+                        <label>
+                            <input type="checkbox" checked>
+                            Exact match
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            Include synonyms
+                        </label>
+                    </div>
+                </div>
+            </details>
+
+            <details class="filter" open>
+                <summary>Category</summary>
+                <div class="filter-content">
+                    <select id="category">
+                        <option value="all" selected>All</option>
+                        <option>Generative Models</option>
+                        <option>Vision</option>
+                        <option>Language</option>
+                        <option>Robotics</option>
+                        <option>Optimization</option>
+                    </select>
+                    <div class="toggle-group">
+                        <label>
+                            <input type="checkbox" checked>
+                            Peer-reviewed only
+                        </label>
+                        <label>
+                            <input type="checkbox">
+                            Preprints
+                        </label>
+                    </div>
+                </div>
+            </details>
+
+            <details class="filter" open>
+                <summary>Date Range</summary>
+                <div class="filter-content">
+                    <input type="date" id="start-date">
+                    <input type="date" id="end-date">
+                    <button class="btn-apply" id="apply-filters">Apply</button>
+                </div>
+            </details>
+        </aside>
+
+        <main class="main">
+            <section id="home" class="section home-section" aria-label="Home"></section>
+            <section id="trends" class="section trends-section">
+                <div class="section-header">
+                    <h2>Trending Topics</h2>
+                    <div class="section-actions">
+                        <button class="pill">24h</button>
+                        <button class="pill active">7d</button>
+                        <button class="pill">30d</button>
+                    </div>
+                </div>
+                <div class="trending-cards" id="trending-cards">
+                    <!-- cards injected by JS -->
+                </div>
+            </section>
+
+            <section class="section viz-section">
+                <div class="viz-grid">
+                    <div class="viz-card" id="word-cloud">
+                        <div class="viz-header">
+                            <h3>Keyword Cloud</h3>
+                        </div>
+                        <div class="viz-body placeholder">Word cloud visualization placeholder</div>
+                    </div>
+                    <div class="viz-card" id="bar-chart">
+                        <div class="viz-header">
+                            <h3>Papers per Cluster</h3>
+                        </div>
+                        <div class="viz-body placeholder">Bar chart visualization placeholder</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section papers-section">
+                <div class="section-header">
+                    <h2>Recent Papers</h2>
+                </div>
+                <div class="papers-list" id="papers-list">
+                    <!-- paper items injected by JS -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer" id="about">
+        <p>Built for researchers. Data updates in real-time as new trends emerge.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+
