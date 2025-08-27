@@ -11,7 +11,7 @@ The Research Trend Radar operates on a robust data pipeline that scrapes, proces
 
 **Trend Detection**: Algorithms track the growth and interconnectedness of these clusters over time to pinpoint what's truly trending.
 
-**Features**
+**Features**:
 
 **Multi-Domain Tracking**: Easily switch between different research fields (e.g., AI/ML, Biotechnology, Renewable Energy) to monitor trends relevant to your interests.
 
