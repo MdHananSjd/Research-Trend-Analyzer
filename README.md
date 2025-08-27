@@ -3,7 +3,7 @@
 A sleek, futuristic dashboard for tracking and visualizing trending research topics and recent papers across various scientific domains. Built for researchers, academics, and enthusiasts, this tool provides a dynamic and intuitive way to stay on top of the latest advancements.
 
 How It Works
-The Research Trend Radar operates on a robust data pipeline that scrapes, processes, and analyzes academic papers. It's powered by data from prominent open-access platforms, including arXiv. The core functionality involves:
+The Research Trend Radar operates on a robust data pipeline that scrapes, processes, and analyzes academic papers. It's powered by data from prominent pen-access platforms, including arXiv. The core functionality involves:
 
 **Data Ingestion**: A dedicated scraping service pulls the latest paper submissions.
 
